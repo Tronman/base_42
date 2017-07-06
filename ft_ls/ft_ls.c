@@ -24,6 +24,10 @@ void RecDir(char * path, int flag) {
     printf(BLUE "\n%s :\n" WHITE, path);
     while((ep = readdir(dp)))
         if(strncmp(ep->d_name, ".", 1))
+		{ // checking if the file a dir or not
+			if(ep->d_type == 4)
+				open()
+
             printf(GREEN "\t%s\n" WHITE, ep->d_name);
     closedir(dp);
     dp = opendir(path);
