@@ -6,7 +6,7 @@
 /*   By: thzondo <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/07/21 10:54:47 by thzondo           #+#    #+#             */
-/*   Updated: 2017/07/21 16:20:08 by thzondo          ###   ########.fr       */
+/*   Updated: 2017/07/21 16:52:01 by thzondo          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -79,6 +79,9 @@ int     Command_Handler(char    **str)
                 {
                     if ((strcmp(args[j], ">") == 0) && (args[j + 1] != NULL))
                     {
+                        file
+
+
 
 
 // Rreturn true if all proccess in the job have stopped or completed
